@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Terra Ignis Energía</title>
+  <desc id="description">La energía es fueguina.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#062e32" />
+      <stop offset="1" stop-color="#071014" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5a16" />
+      <stop offset="1" stop-color="#ff8a3d" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#background)" />
+  <path d="M0 515C190 425 294 545 470 475s267-91 392-19 203 63 338-31v205H0Z" fill="#0b4548" opacity=".8" />
+  <path d="M0 554c196-91 318 22 494-48 166-66 269-90 383-22 111 66 201 55 323-28" fill="none" stroke="url(#accent)" stroke-width="5" opacity=".95" />
+  <g transform="translate(84 88)">
+    <path d="M28 0 54 47 28 94 2 47Z" fill="#ff5a16" />
+    <path d="m28 22 13 25-13 25-13-25Z" fill="#fff" opacity=".95" />
+    <text x="80" y="43" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="33" font-weight="700" letter-spacing="2">TERRA IGNIS</text>
+    <text x="82" y="76" fill="#b7d5d2" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="4">ENERGÍA</text>
+  </g>
+  <text x="84" y="330" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700">LA ENERGÍA</text>
+  <text x="84" y="402" fill="#ff6a24" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700">ES FUEGUINA.</text>
+  <text x="86" y="468" fill="#c4dcda" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="1">Empresa estatal de hidrocarburos y energía</text>
+</svg>
