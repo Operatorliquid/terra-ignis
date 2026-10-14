@@ -54,9 +54,15 @@ const Navbar = () => {
               </span>
             )
           ))}
+          <a
+            href="https://encuentros.terraignisenergia.com/"
+            className="ml-2 px-4 py-2 border border-accent text-accent font-semibold text-sm rounded whitespace-nowrap hover:bg-accent hover:text-accent-foreground transition"
+          >
+            Encuentros
+          </a>
           <Link
             to="/noticias"
-            className="ml-2 px-5 py-2 bg-accent text-accent-foreground font-semibold text-sm rounded hover:brightness-110 transition"
+            className="px-4 py-2 border border-accent bg-accent text-accent-foreground font-semibold text-sm rounded whitespace-nowrap hover:brightness-110 transition"
           >
             Sala de prensa
           </Link>
@@ -93,9 +99,15 @@ const Navbar = () => {
               </span>
             )
           ))}
+            <a
+              href="https://encuentros.terraignisenergia.com/"
+              className="mt-2 px-5 py-2 border border-accent text-accent font-semibold text-sm rounded text-center"
+            >
+              Encuentros
+            </a>
             <Link
               to="/noticias"
-              className="mt-2 px-5 py-2 bg-accent text-accent-foreground font-semibold text-sm rounded text-center"
+              className="px-5 py-2 border border-accent bg-accent text-accent-foreground font-semibold text-sm rounded text-center"
             >
               Sala de prensa
             </Link>
