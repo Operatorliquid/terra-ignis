@@ -29,9 +29,9 @@ const sindicos = [
 const gestionEjecutiva = [
   { name: "Maximiliano D'Alessio", cargo: "Presidente y Gerente General" },
   { name: "Verónica Tito", cargo: "Gerenta Legal e Institucional", desc: "Gestión legal, normativa y relaciones institucionales." },
-  { name: "Agustina Victoria Blanco", cargo: "Equipo de Gestión Ejecutiva" },
+  { name: "Agustina Victoria Blanco", cargo: "Gerencia de Administración y Finanzas" },
   { name: "Sergio Federovisky", cargo: "Asesor Ambiental", desc: "Asesoramiento en política ambiental y sustentabilidad." },
-  { name: "Rafael Pereyra Ramos", cargo: "Subgerente de Finanzas" },
+  { name: "Rafael Pereyra Ramos", cargo: "Gerencia Contable y Recursos Humanos" },
 ];
 
 const maximilianoPersonStructuredData = {

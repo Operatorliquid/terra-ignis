@@ -122,7 +122,9 @@ const NoticiaSingle = () => {
             alt={noticia.title}
             className={id === "eloff-areas-maduras-camino-correcto"
               ? "w-full max-w-md mx-auto aspect-square rounded-xl shadow-lg object-cover"
-              : "w-full rounded-xl shadow-lg object-cover max-h-[500px]"}
+              : id === "encuentro-repensar-cuencas-maduras"
+                ? "w-full rounded-xl shadow-lg object-contain"
+                : "w-full rounded-xl shadow-lg object-cover max-h-[500px]"}
           />
         </div>
       </section>
@@ -130,7 +132,57 @@ const NoticiaSingle = () => {
       {/* Contenido del artículo */}
       <section className="bg-background py-16">
         <div className="container-ti max-w-3xl">
-          {id === "eloff-areas-maduras-camino-correcto" ? (
+          {id === "encuentro-repensar-cuencas-maduras" ? (
+            <div className="space-y-6 text-foreground/80 leading-relaxed text-lg">
+              <p className="font-medium text-xl text-foreground mb-8">
+                El encuentro “Repensar las Cuencas Maduras” se realizará el 26 y 27 de noviembre en Ushuaia, organizado por Terra Ignis Energía. La propuesta convocará a autoridades, empresas operadoras, compañías de servicios y especialistas para abordar los desafíos de inversión, competitividad y reactivación de los hidrocarburos convencionales.
+              </p>
+
+              <p>Ushuaia será sede del encuentro “Repensar las Cuencas Maduras: una agenda federal para el desarrollo de los hidrocarburos convencionales”, que se realizará los días 26 y 27 de noviembre en la Fábrica de Talentos, organizado por Terra Ignis Energía S.A., con el acompañamiento del Gobierno de Tierra del Fuego, Antártida e Islas del Atlántico Sur.</p>
+
+              <p>Durante las dos jornadas, representantes del sector público y privado compartirán experiencias y analizarán los principales desafíos que enfrentan las cuencas hidrocarburíferas maduras del país. Entre los ejes de debate se destacan la política tributaria, las reservas, la atracción de inversiones, los esquemas de regalías, el sostenimiento y la generación de empleo, así como los instrumentos que podrían favorecer la reactivación de la producción convencional.</p>
+
+              <p>El encuentro propone abrir un espacio de intercambio sobre el potencial que aún conservan los yacimientos convencionales y las condiciones necesarias para sostener su producción, mejorar su competitividad y promover nuevas inversiones.</p>
+
+              <p>En ese marco, el presidente de Terra Ignis Energía, Maximiliano D’Alessio, destacó:</p>
+
+              <blockquote className="border-l-4 border-primary bg-primary/5 p-6 rounded-r-lg italic text-foreground font-medium my-8">
+                “Las cuencas maduras siguen teniendo un gran potencial para generar producción, inversiones y empleo. Desde Terra Ignis queremos impulsar una agenda federal que reúna a las provincias productoras y al sector privado para compartir experiencias y pensar nuevas oportunidades para los hidrocarburos convencionales”.
+                <span className="block mt-4 text-sm font-bold text-accent not-italic">— Maximiliano D’Alessio, presidente de Terra Ignis Energía</span>
+              </blockquote>
+
+              <p>Por su parte, la ministra de Energía de Tierra del Fuego, Gabriela Castillo, expresó:</p>
+
+              <blockquote className="border-l-4 border-primary bg-primary/5 p-6 rounded-r-lg italic text-foreground font-medium my-8">
+                “La reactivación de las cuencas maduras es uno de los desafíos que tenemos por delante las provincias productoras. Necesitamos discutir herramientas que permitan sostener la producción convencional, promover nuevas inversiones y preservar el empleo. Este encuentro es una oportunidad para compartir experiencias y avanzar en una agenda energética federal que contemple las particularidades de cada provincia y el potencial de sus recursos”.
+                <span className="block mt-4 text-sm font-bold text-accent not-italic">— Gabriela Castillo, ministra de Energía de Tierra del Fuego</span>
+              </blockquote>
+
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Una agenda federal para el desarrollo energético</h3>
+
+              <p>La programación incluirá paneles dedicados al futuro energético de las provincias, la competitividad de las cuencas maduras, el papel de las empresas provinciales de energía, las oportunidades de desarrollo offshore en la Cuenca Austral y los desafíos de una producción ambientalmente responsable.</p>
+
+              <p>También se abordarán las perspectivas de las empresas de servicios petroleros, el desarrollo de proveedores, la incorporación de nuevas tecnologías y las condiciones económicas y regulatorias necesarias para impulsar la actividad.</p>
+
+              <p>Uno de los ejes centrales será el papel de las provincias productoras y sus empresas energéticas como instrumentos para promover inversiones, fortalecer las capacidades locales y generar nuevas oportunidades de desarrollo.</p>
+
+              <p>Al respecto, la gerenta Legal e Institucional de Terra Ignis Energía, Verónica Tito, señaló:</p>
+
+              <blockquote className="border-l-4 border-primary bg-primary/5 p-6 rounded-r-lg italic text-foreground font-medium my-8">
+                “Repensar las cuencas maduras también implica discutir las condiciones económicas y regulatorias que necesita el sector para recuperar competitividad. Queremos poner sobre la mesa temas concretos como los impuestos, las regalías, las inversiones y el empleo, y avanzar en una agenda federal que permita impulsar la reactivación de la producción convencional”.
+                <span className="block mt-4 text-sm font-bold text-accent not-italic">— Verónica Tito, gerenta Legal e Institucional de Terra Ignis Energía</span>
+              </blockquote>
+
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Dos jornadas de intercambio en Ushuaia</h3>
+
+              <p>El encuentro está dirigido a autoridades nacionales y provinciales, representantes de empresas operadoras de hidrocarburos, empresas provinciales de energía, compañías de servicios petroleros, cámaras empresarias, universidades, organizaciones sindicales, especialistas y referentes nacionales e internacionales del sector energético, así como a medios de comunicación especializados.</p>
+
+              <p>
+                La actividad se desarrollará los días jueves 26 y viernes 27 de noviembre, en la Fábrica de Talentos, ubicada en Av. Maipú 1255, Ushuaia, y requiere inscripción previa. Consultas:{" "}
+                <a href="mailto:info@terraignis.ar" className="text-accent font-semibold hover:underline">info@terraignis.ar</a>.
+              </p>
+            </div>
+          ) : id === "eloff-areas-maduras-camino-correcto" ? (
             <div className="space-y-6 text-foreground/80 leading-relaxed text-lg">
               <p className="font-medium text-xl text-foreground mb-8">
                 El director de Terra Ignis Energía, Alejandro Eloff, analizó el potencial de las áreas hidrocarburíferas transferidas y explicó que la recuperación de producción dependerá de un trabajo técnico de detalle, eficiencia operativa, tecnología y aprovechamiento del capital humano. También señaló que algunos pozos dejados por YPF podrían convertirse en las primeras “victorias tempranas” de esta nueva etapa.

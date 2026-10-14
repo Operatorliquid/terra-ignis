@@ -16,6 +16,7 @@ import img9Jun from "@/assets/9jun.jpg";
 import prensaAgosto from "@/assets/agosto/prensa.jpeg";
 import proyamb1 from "@/assets/proyamb/proyamb1.jpeg";
 import eloffImg from "@/assets/octubre-6/eloff.jpeg";
+import encuentroCuencasImg from "@/assets/octubre-14/encuentro-cuencas-maduras.jpg";
 
 const sortByNumericFilename = (a: string, b: string) => {
   const getValue = (path: string) => {
@@ -82,6 +83,7 @@ const imagenesTdfInnovaFinal = Object.entries(globTdfInnovaFinal)
 const portadaTdfInnovaFinal = imagenesTdfInnovaFinal[1] || imagenesTdfInnovaFinal[0] || newsPlaceholder;
 
 export const allNews = [
+  { id: "encuentro-repensar-cuencas-maduras", date: "14 Oct 2026", title: "Tierra del Fuego reunirá a referentes del sector energético para debatir el futuro de las cuencas maduras", cat: "Institucional", summary: "El encuentro “Repensar las Cuencas Maduras” se realizará el 26 y 27 de noviembre en Ushuaia, organizado por Terra Ignis Energía. La propuesta convocará a autoridades, empresas operadoras, compañías de servicios y especialistas para abordar los desafíos de inversión, competitividad y reactivación de los hidrocarburos convencionales.", img: encuentroCuencasImg },
   { id: "eloff-areas-maduras-camino-correcto", date: "6 Oct 2026", title: "Eloff sobre las áreas maduras: “El camino que se ha emprendido es el correcto”", cat: "Operaciones", summary: "El director de Terra Ignis Energía analizó el potencial de las áreas hidrocarburíferas transferidas y explicó que la recuperación de producción dependerá de un trabajo técnico de detalle, eficiencia operativa, tecnología y aprovechamiento del capital humano.", img: eloffImg },
   { id: "nuevo-equipo-workover", date: "27 Sep 2026", title: "Terra Ignis y Velitec fortalecen su operación con la llegada de un nuevo equipo de Workover", cat: "Operaciones", summary: "El nuevo equipo permitirá realizar intervenciones sobre pozos existentes para sostener y recuperar su capacidad productiva en las áreas operadas por Terra Ignis y Velitec.", img: portadaWorkover },
   { id: "final-tdf-innova-2026", date: "22 Sep 2026", title: "Terra Ignis acompañó la final de TDF Innova y reafirmó su apoyo a la innovación fueguina", cat: "Institucional", summary: "La empresa participó como patrocinadora de la sexta edición de TDF Innova, una iniciativa que impulsa y visibiliza proyectos emprendedores e innovadores de Tierra del Fuego.", img: portadaTdfInnovaFinal },
