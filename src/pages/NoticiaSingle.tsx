@@ -132,7 +132,47 @@ const NoticiaSingle = () => {
       {/* Contenido del artículo */}
       <section className="bg-background py-16">
         <div className="container-ti max-w-3xl">
-          {id === "encuentro-repensar-cuencas-maduras" ? (
+          {id === "mision-comercial-alberta" ? (
+            <div className="space-y-6 text-foreground/80 leading-relaxed text-lg">
+              <p className="font-medium text-xl text-foreground mb-8">
+                El presidente de la empresa provincial, Maximiliano D’Alessio, y la gerenta Legal e Institucional, Verónica Tito, participaron de la Misión Comercial de Alberta en Buenos Aires, en el marco de una agenda de vinculación internacional orientada al intercambio de experiencias, tecnología y oportunidades de cooperación.
+              </p>
+
+              <p>Terra Ignis Energía S.A. participó este martes 13 de octubre de la Ronda de Negocios de la Misión Comercial de Alberta, Canadá, organizada por la Cámara de Comercio Argentino Canadiense en la Ciudad Autónoma de Buenos Aires.</p>
+
+              <p>El encuentro reunió a representantes de empresas canadienses especializadas en tecnología, ingeniería, equipamiento y servicios para la industria energética, con el propósito de promover vínculos comerciales, intercambio de conocimientos y oportunidades de cooperación con actores del sector.</p>
+
+              <p>En representación de Terra Ignis participaron su presidente, Maximiliano D’Alessio, y la gerenta Legal e Institucional, Verónica Tito, quienes, durante la jornada, mantuvieron conversaciones con representantes de seis compañías: Triumph International Solutions, Clear Rush Co., 149MKM Software, GLJ, Serva Group y Belloy Petroleum Consulting.</p>
+
+              <p>D’Alessio señaló:</p>
+
+              <blockquote className="border-l-4 border-primary bg-primary/5 p-6 rounded-r-lg italic text-foreground font-medium my-8">
+                “Estos encuentros nos permiten fortalecer los vínculos con empresas que cuentan con experiencia en distintas áreas de la industria energética. Para Terra Ignis es importante conocer nuevas tecnologías, intercambiar experiencias e identificar oportunidades de cooperación que contribuyan al desarrollo de la actividad hidrocarburífera en Tierra del Fuego”.
+                <span className="block mt-4 text-sm font-bold text-accent not-italic">— Maximiliano D’Alessio, presidente de Terra Ignis Energía</span>
+              </blockquote>
+
+              <p>
+                La participación en esta actividad da continuidad a los vínculos establecidos en junio, cuando D’Alessio y Tito integraron una delegación provincial que participó en la{" "}
+                <Link to="/noticias/presentacion-canada" className="text-accent font-semibold hover:underline">Global Energy Show 2026</Link>, realizada en Calgary, Canadá, en el marco de una misión de promoción de inversiones impulsada por el Consejo Federal de Inversiones (CFI). En esa oportunidad, ambos expusieron en el panel “Necesidades y perspectivas de los operadores argentinos”, donde presentaron las oportunidades de desarrollo energético de Tierra del Fuego.
+              </p>
+
+              <p>Alberta es una de las principales regiones productoras de hidrocarburos de Canadá y cuenta con experiencia en producción convencional y no convencional, recuperación de yacimientos maduros y desarrollo de tecnologías y servicios especializados, áreas de interés para los desafíos productivos de la Cuenca Austral.</p>
+
+              <p>Por su parte, Tito expresó:</p>
+
+              <blockquote className="border-l-4 border-primary bg-primary/5 p-6 rounded-r-lg italic text-foreground font-medium my-8">
+                “La participación en estos espacios permite consolidar relaciones institucionales y comerciales, conocer capacidades técnicas y generar contactos con empresas especializadas. Se trata de explorar alternativas de cooperación y fortalecer el intercambio de conocimientos que puedan aportar al desarrollo energético provincial”.
+                <span className="block mt-4 text-sm font-bold text-accent not-italic">— Verónica Tito, gerenta Legal e Institucional de Terra Ignis Energía</span>
+              </blockquote>
+
+              <p>
+                Esta agenda de vinculación internacional se relaciona también con los ejes del{" "}
+                <Link to="/noticias/encuentro-repensar-cuencas-maduras" className="text-accent font-semibold hover:underline">Encuentro “Repensar las Cuencas Maduras: una agenda federal para el desarrollo de los hidrocarburos convencionales”</Link>, que Terra Ignis organizará los días 26 y 27 de noviembre en Ushuaia, con el objetivo de promover el intercambio de experiencias y el debate sobre competitividad, inversión, innovación tecnológica y producción responsable.
+              </p>
+
+              <p>De esta manera, Terra Ignis continúa desarrollando espacios de vinculación con actores nacionales e internacionales de la industria, orientados a identificar oportunidades de cooperación y fortalecer el desarrollo energético de Tierra del Fuego.</p>
+            </div>
+          ) : id === "encuentro-repensar-cuencas-maduras" ? (
             <div className="space-y-6 text-foreground/80 leading-relaxed text-lg">
               <p className="font-medium text-xl text-foreground mb-8">
                 El encuentro “Repensar las Cuencas Maduras” se realizará el 26 y 27 de noviembre en Ushuaia, organizado por Terra Ignis Energía. La propuesta convocará a autoridades, empresas operadoras, compañías de servicios y especialistas para abordar los desafíos de inversión, competitividad y reactivación de los hidrocarburos convencionales.

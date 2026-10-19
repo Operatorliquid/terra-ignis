@@ -30,6 +30,7 @@ const maximilianoPersonStructuredData = {
 };
 
 const imageSourceByNewsId = {
+  "mision-comercial-alberta": "src/assets/octubre-13/mision-alberta.jpg",
   "encuentro-repensar-cuencas-maduras": "src/assets/octubre-14/encuentro-cuencas-maduras.jpg",
   "eloff-areas-maduras-camino-correcto": "src/assets/octubre-6/eloff.jpeg",
   "nuevo-equipo-workover": "src/assets/septiembre-27/1.jpeg",
@@ -56,6 +57,7 @@ const imageSourceByNewsId = {
 };
 
 const imageDimensionsByNewsId = {
+  "mision-comercial-alberta": { width: "1279", height: "853" },
   "encuentro-repensar-cuencas-maduras": { width: "1600", height: "999" },
   "eloff-areas-maduras-camino-correcto": { width: "390", height: "390" },
   "nuevo-equipo-workover": { width: "1175", height: "772" },
