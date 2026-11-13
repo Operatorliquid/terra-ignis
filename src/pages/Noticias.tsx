@@ -18,6 +18,7 @@ import proyamb1 from "@/assets/proyamb/proyamb1.jpeg";
 import eloffImg from "@/assets/octubre-6/eloff.jpeg";
 import encuentroCuencasImg from "@/assets/octubre-14/encuentro-cuencas-maduras.jpg";
 import misionAlbertaImg from "@/assets/octubre-13/mision-alberta.jpg";
+import dalessioFmLaIslaImg from "@/assets/noviembre-13/dalessio-fm-la-isla.jpg";
 
 const sortByNumericFilename = (a: string, b: string) => {
   const getValue = (path: string) => {
@@ -84,6 +85,7 @@ const imagenesTdfInnovaFinal = Object.entries(globTdfInnovaFinal)
 const portadaTdfInnovaFinal = imagenesTdfInnovaFinal[1] || imagenesTdfInnovaFinal[0] || newsPlaceholder;
 
 export const allNews = [
+  { id: "dalessio-yacimientos-mas-productivos", date: "13 Nov 2026", title: "D’Alessio: “Buscamos que los yacimientos sean más productivos, más eficientes y tengan mayor vida útil”", cat: "Institucional", summary: "El presidente de Terra Ignis Energía, Maximiliano D’Alessio, destacó la importancia de impulsar una nueva etapa para la producción convencional de hidrocarburos, con foco en la eficiencia, las inversiones y el desarrollo de las provincias productoras. En ese marco, puso en valor el encuentro nacional “Repensar las Cuencas Maduras”, que se realizará el 26 y 27 de noviembre en Ushuaia y reunirá a representantes de provincias, empresas y especialistas para debatir el futuro de la actividad.", img: dalessioFmLaIslaImg },
   { id: "mision-comercial-alberta", date: "19 Oct 2026", title: "Terra Ignis participó en un encuentro de negocios con empresas del sector energético de Canadá", cat: "Institucional", summary: "El presidente de la empresa provincial, Maximiliano D’Alessio, y la gerenta Legal e Institucional, Verónica Tito, participaron de la Misión Comercial de Alberta en Buenos Aires, en el marco de una agenda de vinculación internacional orientada al intercambio de experiencias, tecnología y oportunidades de cooperación.", img: misionAlbertaImg },
   { id: "encuentro-repensar-cuencas-maduras", date: "14 Oct 2026", title: "Tierra del Fuego reunirá a referentes del sector energético para debatir el futuro de las cuencas maduras", cat: "Institucional", summary: "El encuentro “Repensar las Cuencas Maduras” se realizará el 26 y 27 de noviembre en Ushuaia, organizado por Terra Ignis Energía. La propuesta convocará a autoridades, empresas operadoras, compañías de servicios y especialistas para abordar los desafíos de inversión, competitividad y reactivación de los hidrocarburos convencionales.", img: encuentroCuencasImg },
   { id: "eloff-areas-maduras-camino-correcto", date: "6 Oct 2026", title: "Eloff sobre las áreas maduras: “El camino que se ha emprendido es el correcto”", cat: "Operaciones", summary: "El director de Terra Ignis Energía analizó el potencial de las áreas hidrocarburíferas transferidas y explicó que la recuperación de producción dependerá de un trabajo técnico de detalle, eficiencia operativa, tecnología y aprovechamiento del capital humano.", img: eloffImg },

@@ -30,6 +30,7 @@ const maximilianoPersonStructuredData = {
 };
 
 const imageSourceByNewsId = {
+  "dalessio-yacimientos-mas-productivos": "src/assets/noviembre-13/dalessio-fm-la-isla.jpg",
   "mision-comercial-alberta": "src/assets/octubre-13/mision-alberta.jpg",
   "encuentro-repensar-cuencas-maduras": "src/assets/octubre-14/encuentro-cuencas-maduras.jpg",
   "eloff-areas-maduras-camino-correcto": "src/assets/octubre-6/eloff.jpeg",
@@ -57,6 +58,7 @@ const imageSourceByNewsId = {
 };
 
 const imageDimensionsByNewsId = {
+  "dalessio-yacimientos-mas-productivos": { width: "1600", height: "1068" },
   "mision-comercial-alberta": { width: "1279", height: "853" },
   "encuentro-repensar-cuencas-maduras": { width: "1600", height: "999" },
   "eloff-areas-maduras-camino-correcto": { width: "390", height: "390" },

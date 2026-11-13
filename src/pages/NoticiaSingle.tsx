@@ -132,7 +132,89 @@ const NoticiaSingle = () => {
       {/* Contenido del artículo */}
       <section className="bg-background py-16">
         <div className="container-ti max-w-3xl">
-          {id === "mision-comercial-alberta" ? (
+          {id === "dalessio-yacimientos-mas-productivos" ? (
+            <div className="space-y-6 text-foreground/80 leading-relaxed text-lg">
+              <p className="font-medium text-xl text-foreground mb-8">
+                El presidente de Terra Ignis Energía, Maximiliano D’Alessio, destacó la importancia de impulsar una nueva etapa para la producción convencional de hidrocarburos, con foco en la eficiencia, las inversiones y el desarrollo de las provincias productoras. En ese marco, puso en valor el encuentro nacional “Repensar las Cuencas Maduras”, que se realizará el 26 y 27 de noviembre en Ushuaia y reunirá a representantes de provincias, empresas y especialistas para debatir el futuro de la actividad.
+              </p>
+
+              <p>En declaraciones a FM La Isla, el presidente de Terra Ignis Energía S.A., Maximiliano D’Alessio, se refirió a los desafíos que atraviesan las provincias productoras frente al declino de los yacimientos maduros y la concentración de inversiones en los recursos no convencionales de Vaca Muerta.</p>
+
+              <p>En ese contexto, planteó la necesidad de promover nuevos modelos de gestión, fortalecer la articulación entre los distintos actores de la industria y generar condiciones para recuperar la actividad hidrocarburífera convencional.</p>
+
+              <blockquote className="border-l-4 border-primary bg-primary/5 p-6 rounded-r-lg italic text-foreground font-medium my-8">
+                “Era una problemática común que llevaba a todas las provincias productoras de hidrocarburos a tener las mismas inquietudes, los mismos problemas y la búsqueda de nuevos horizontes”.
+                <span className="block mt-4 text-sm font-bold text-accent not-italic">— Maximiliano D’Alessio, presidente de Terra Ignis Energía</span>
+              </blockquote>
+
+              <p>
+                A partir de estos desafíos compartidos, Terra Ignis Energía, junto al Gobierno de Tierra del Fuego, organiza el encuentro nacional{" "}
+                <Link to="/noticias/encuentro-repensar-cuencas-maduras" className="text-accent font-semibold hover:underline">“Repensar las Cuencas Maduras”</Link>, que se desarrollará los días 26 y 27 de noviembre en la Fábrica de Talentos de Ushuaia.
+              </p>
+
+              <p>La iniciativa surgió de conversaciones con representantes de provincias productoras, legisladores, autoridades vinculadas con la Organización Federal de Estados Productores de Hidrocarburos (OFEPHI) y referentes de la industria, que coincidieron en la necesidad de construir una agenda común para el desarrollo de la producción convencional.</p>
+
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Nuevas oportunidades para las cuencas maduras</h3>
+
+              <p>Uno de los principales ejes del encuentro será el papel de las pequeñas y medianas empresas operadoras en la recuperación de los yacimientos convencionales.</p>
+
+              <p>D’Alessio explicó que la decisión de grandes compañías de concentrar sus inversiones en Vaca Muerta abrió oportunidades para empresas con estructuras de costos y modelos de gestión adaptados a las particularidades de los campos maduros.</p>
+
+              <p>Como referencia, mencionó la experiencia de Brasil, donde la transferencia de áreas convencionales de Petrobras a empresas de menor escala permitió desarrollar nuevos esquemas de operación y recuperar actividad.</p>
+
+              <p>En Argentina, un proceso similar comenzó a desarrollarse a partir de la transferencia de áreas anteriormente operadas por YPF en distintas provincias.</p>
+
+              <p>En ese sentido, destacó que la recuperación de la actividad requiere combinar eficiencia operativa, conocimiento técnico, incorporación de tecnologías y nuevas inversiones, con el objetivo de mejorar la productividad y prolongar la vida útil de los yacimientos.</p>
+
+              <p>El encuentro permitirá conocer experiencias de distintas compañías operadoras, analizar sus estrategias de gestión y compartir alternativas para afrontar los desafíos de la producción convencional.</p>
+
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Un espacio federal para intercambiar experiencias y promover inversiones</h3>
+
+              <p>D’Alessio destacó que la convocatoria busca reunir a representantes del sector público y privado para analizar las condiciones necesarias para sostener la actividad hidrocarburífera en las cuencas maduras.</p>
+
+              <p>Durante las jornadas se abordarán temas vinculados con la competitividad, la recuperación de yacimientos, la innovación tecnológica, los marcos regulatorios, el desarrollo de proveedores y las oportunidades de inversión.</p>
+
+              <p>Además, se buscará promover espacios de vinculación entre empresas, autoridades y especialistas que permitan identificar alternativas de cooperación y nuevos proyectos.</p>
+
+              <p>El presidente de Terra Ignis señaló que uno de los objetivos es facilitar el intercambio de experiencias entre las provincias productoras y fortalecer una agenda federal que contemple las particularidades de cada cuenca.</p>
+
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Sustentabilidad y oportunidades de desarrollo</h3>
+
+              <p>Otro de los ejes será la producción responsable y los desafíos ambientales asociados con la explotación de yacimientos maduros.</p>
+
+              <p>El encuentro contará con espacios de análisis sobre gestión ambiental, abandono de pozos, saneamiento de instalaciones y alternativas para desarrollar una actividad más eficiente y sustentable.</p>
+
+              <p>Asimismo, se abordará la situación internacional de la explotación hidrocarburífera offshore y las oportunidades que presenta la Cuenca Austral, junto con los desafíos vinculados con la regulación y la continuidad de la producción convencional.</p>
+
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Terra Ignis fortalece su participación en la agenda energética federal</h3>
+
+              <p>D’Alessio destacó que la organización del encuentro representa un paso importante para Terra Ignis Energía y su participación en los espacios de articulación con otras empresas energéticas provinciales.</p>
+
+              <blockquote className="border-l-4 border-primary bg-primary/5 p-6 rounded-r-lg italic text-foreground font-medium my-8">
+                “Terra Ignis no solo es una empresa que está funcionando en Tierra del Fuego, sino que además ya se sienta en las mesas donde el resto de las provincias discuten estos temas”.
+                <span className="block mt-4 text-sm font-bold text-accent not-italic">— Maximiliano D’Alessio, presidente de Terra Ignis Energía</span>
+              </blockquote>
+
+              <p>En ese sentido, valoró la oportunidad de compartir experiencias de gestión, fortalecer vínculos institucionales y posicionar a Tierra del Fuego como un espacio de encuentro para el debate sobre el futuro energético de las provincias productoras.</p>
+
+              <p>También expresó su expectativa de que esta primera edición pueda consolidarse como una iniciativa de continuidad anual, con futuras ediciones en otras provincias.</p>
+
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Un encuentro con acompañamiento del sector energético</h3>
+
+              <p>“Repensar las Cuencas Maduras” reunirá a autoridades nacionales y provinciales, empresas operadoras, compañías de servicios, cámaras empresariales, especialistas y referentes de la industria.</p>
+
+              <p>La realización del encuentro cuenta con el <strong className="text-foreground">auspicio de TotalEnergies, Pan American Energy, Equinor y Velitec</strong>, compañías que acompañan esta iniciativa destinada a promover el intercambio de experiencias y fortalecer el diálogo sobre los desafíos y oportunidades de la producción convencional.</p>
+
+              <p>El encuentro es organizado por <strong className="text-foreground">Terra Ignis Energía S.A. junto al Gobierno de la Provincia de Tierra del Fuego, Antártida e Islas del Atlántico Sur</strong>.</p>
+
+              <p>Se llevará adelante los días <strong className="text-foreground">26 y 27 de noviembre en la Fábrica de Talentos de Ushuaia</strong>, con acceso mediante invitación, inscripción y acreditación previa.</p>
+
+              <p>
+                <strong className="text-foreground">Más información: </strong>
+                <a href="https://encuentros.terraignisenergia.com/" target="_blank" rel="noopener noreferrer" className="text-accent font-semibold hover:underline">encuentros.terraignisenergia.com</a>
+              </p>
+            </div>
+          ) : id === "mision-comercial-alberta" ? (
             <div className="space-y-6 text-foreground/80 leading-relaxed text-lg">
               <p className="font-medium text-xl text-foreground mb-8">
                 El presidente de la empresa provincial, Maximiliano D’Alessio, y la gerenta Legal e Institucional, Verónica Tito, participaron de la Misión Comercial de Alberta en Buenos Aires, en el marco de una agenda de vinculación internacional orientada al intercambio de experiencias, tecnología y oportunidades de cooperación.
